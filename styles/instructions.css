@@ -1,0 +1,47 @@
+
+.instructions {
+  display: flex;
+  flex-direction: column;
+  gap: 2.25rem;
+  font-family: var(--roboto-flex);
+
+  padding-top: 5rem;
+
+  & .operation,
+  & .interval {
+    display: flex;
+    gap: .5rem;
+
+    & > img {
+      align-self: baseline;
+      width: 20px;
+      height: 20px;
+    }
+
+    & .operation-title,
+    & .interval-title {
+
+      & h3 {
+        font-weight: 500;
+        color: #C58DE7;
+        font-size: .875rem;
+        line-height: 150%;
+      }
+
+      & > p {
+        color: #C7C9CC;
+        font-size: .75rem;
+        font-weight: 500;
+        line-height: 150%;
+      }
+    }
+  }
+}
+
+@media (width >= 800px) {
+  .instructions {
+    padding-top: 0%;
+
+    max-width: 24rem;
+  }
+}
