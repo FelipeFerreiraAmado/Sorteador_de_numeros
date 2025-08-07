@@ -43,11 +43,11 @@ O sorteador permite que o usuário defina a quantidade de números a serem sorte
 
 ### Interface Inicial
 
-![Interface Inicial do Sorteador](./sorter_screenshot_1.webp)
+![Interface Inicial do Sorteador](assets/readme/1.png)
 
 ### Resultado do Sorteio
 
-![Resultado do Sorteio](./sorter_screenshot_2.webp)
+![Resultado do Sorteio](assets/readme/2.png)
 
 ## 🔮 Melhorias Futuras
 
